@@ -29,6 +29,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/six.py
-%{python3_sitearch}/six-*.egg-info
-%{python3_sitearch}/__pycache__/*
+%{python3_sitelib}/six.py
+%{python3_sitelib}/six-*.egg-info
+%{python3_sitelib}/__pycache__/*
