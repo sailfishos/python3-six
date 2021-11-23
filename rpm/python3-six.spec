@@ -29,6 +29,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
+%license LICENSE
 %{python3_sitelib}/six.py
 %{python3_sitelib}/six-*.egg-info
 %{python3_sitelib}/__pycache__/*
