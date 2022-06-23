@@ -3,7 +3,7 @@ Summary:    Six is a Python 2 and 3 compatibility library
 Version:    1.14.0
 Release:    1
 License:    MIT
-URL:        https://pypi.org/project/six/
+URL:        https://github.com/sailfishos/python3-six
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
